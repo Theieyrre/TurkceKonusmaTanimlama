@@ -5,10 +5,14 @@ Facebook XLS-R
 DeepSpeech 
 
 ## Kullanılan Paragraf
+Yalnızlık Psikolojisi - Dr. Recai Yahyaoğlu kitabından ilk paragraf
+
 Her şey bir ihtiyaçtan doğar. Yapılan her iş, iyi yada kötü bir anlam taşır ve her anlam hayata bakışımızı etkiler.
 İnsanlar bu farklı bakış açılarına göre kısmen yalnızdırlar. Çünkü etraflarında onlar gibi olaylara aynı şekilde bakan ve algılayan kimse yoktur.
 Bu yüzden iyi yada kötü anlamlar çağrıştıran, doğru ya da yanlış değerlendirilebilen ve kimi zaman ihtiyaç haline gelen
 yalnızlık duygusunun tanınması gerekir.
+
+Paragraf ses dosyası: paragraf.mp3
 
 ## Facebook XLS-R
 Wav2vec2-large-xlsr-532 modeli 53 dil için 16 kHz ses dosyaları ile eğitilmiş bir modeldir.
@@ -51,7 +55,6 @@ Türkçe için bu eğitimi yapan tek bir çalışma bulabildim. RashadGarayev ta
 
 
 Kaynakça  
-[Paragraf ses dosyası kaydı](https://drive.google.com/file/d/1RKFdsQb7Epkjsh6VzgQmzEXd_2MPlkKQ/view?usp=sharing)  
 [Wav2vec2-large-xlsr-53](https://huggingface.co/blog/fine-tune-wav2vec2-english)  
 [Common voice](https://commonvoice.mozilla.org/tr/datasets)  
 [Fine-Tune XLSR-Wav2Vec2 on Turkish ASR with 🤗 Transformers (Model geliştirmek için kullanılan not defteri)](https://colab.research.google.com/drive/1euneFBjmIZ6_cvjkBXYao2kx61ieiqG3?usp=sharing)  
