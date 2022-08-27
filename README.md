@@ -45,12 +45,18 @@ Wav2Vec2 Türkçe modeli hata oranı:
 
 Eksikler
 - Kendi geliştirdiğim modelde öğrenme gerçekleşmiyor. colabda ses dosyalarının çoğunluğunu göremiyor/okuyamıyor. Bu sebeple veya eğitim kodundaki hatından sıkıntı çıkıyor. 
-- DeepSpeech için direk Türkçe pretrained model yok. Başka diller için yapılan çalışmaları Türkçe için uyarlamaya çalışıyorum
 
-Kaynakça
-Paragraf ses dosyası kaydı https://drive.google.com/file/d/1RKFdsQb7Epkjsh6VzgQmzEXd_2MPlkKQ/view?usp=sharing
-Wav2vec2-large-xlsr-53 https://huggingface.co/blog/fine-tune-wav2vec2-english
-https://commonvoice.mozilla.org/tr/datasets
-Fine-Tune XLSR-Wav2Vec2 on Turkish ASR with 🤗 Transformers (Model geliştirmek için kullanılan not defteri) https://colab.research.google.com/drive/1euneFBjmIZ6_cvjkBXYao2kx61ieiqG3?usp=sharing
-Tüm çalışmaları gösteren not defteri https://colab.research.google.com/drive/15-gbrhrz_hyXBi1CHYWbWy7WQH0VgRlD?usp=sharing
-https://huggingface.co/ozcangundes/wav2vec2-large-xlsr-53-turkish
+DeepSpeech
+Türkçe için bu eğitimi yapan tek bir çalışma bulabildim. RashadGarayev tarafından geliştirilmiş model github reposunu buldum ve o aşamaları takip ettim. Fakat bir sonuç üretemedi. Felemenkçe için yapılan bir not defteri buldum. Bu aşamaları türkçe dataseti için uyarladım.  Not defterindeki training kısmını çalıştırınca bu modül bulunmamaktadır hatası verdi. Mozillanın hazırlandığı dökümantasyondaki eğitim kısmına bakarak kendi modelimi geliştirmeye çalışıyorum.
+
+
+Kaynakça  
+[Paragraf ses dosyası kaydı](https://drive.google.com/file/d/1RKFdsQb7Epkjsh6VzgQmzEXd_2MPlkKQ/view?usp=sharing)  
+[Wav2vec2-large-xlsr-53](https://huggingface.co/blog/fine-tune-wav2vec2-english)  
+[Common voice](https://commonvoice.mozilla.org/tr/datasets)  
+[Fine-Tune XLSR-Wav2Vec2 on Turkish ASR with 🤗 Transformers (Model geliştirmek için kullanılan not defteri)](https://colab.research.google.com/drive/1euneFBjmIZ6_cvjkBXYao2kx61ieiqG3?usp=sharing)  
+[Tüm çalışmaları gösteren not defteri](https://colab.research.google.com/drive/15-gbrhrz_hyXBi1CHYWbWy7WQH0VgRlD?usp=sharing)  
+[ozcangundes modeli](https://huggingface.co/ozcangundes/wav2vec2-large-xlsr-53-turkish)  
+[Türkçe Deepspeech](https://github.com/RashadGarayev/TRSpeech-to-text)  
+[Felemenkçe Not defteri](https://colab.research.google.com/github/acabunoc/Tutorial-train-dutch-model/blob/master/DeepSpeech_train_a_model%2C_CV_Dutch.ipynb)  
+[Eğitim Dökümantasyonu](https://github.com/mozilla/DeepSpeech/blob/master/doc/TRAINING.rst#training-your-own-model)  
