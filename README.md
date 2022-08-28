@@ -40,18 +40,18 @@ her şeyi bir ihti yaştanbuar yapılan her içş iyi yılda kötü bir anlam ta
 
 Kelim hata oranları
 
-Not defteri modeli hata oranı:
-1.0
-Orijinal not defteri modeli hata oranı:
-0.5254237288135594
-Wav2Vec2 Türkçe modeli hata oranı:
-0.5932203389830508
+Not defteri modeli hata oranı:  
+1.0  
+Orijinal not defteri modeli hata oranı:  
+0.5254237288135594  
+Wav2Vec2 Türkçe modeli hata oranı:  
+0.5932203389830508  
 
 Eksikler
-- Kendi geliştirdiğim modelde öğrenme gerçekleşmiyor. colabda ses dosyalarının çoğunluğunu göremiyor/okuyamıyor. Bu sebeple veya eğitim kodundaki hatından sıkıntı çıkıyor. 
+- Kendi geliştirdiğim modelde öğrenme gerçekleşmiyor. colabda ses dosyalarının çoğunluğunu göremiyor/okuyamıyor. Colab bir süredir sıklıkla kullandığım için daha küşük kapasitede cihaz atıyor. Çalıştırabildiğim kod kapasite yetersiz diyor.
 
 DeepSpeech
-Türkçe için bu eğitimi yapan tek bir çalışma bulabildim. RashadGarayev tarafından geliştirilmiş model github reposunu buldum ve o aşamaları takip ettim. Fakat bir sonuç üretemedi. Felemenkçe için yapılan bir not defteri buldum. Bu aşamaları türkçe dataseti için uyarladım.  Not defterindeki training kısmını çalıştırınca bu modül bulunmamaktadır hatası verdi. Mozillanın hazırlandığı dökümantasyondaki eğitim kısmına bakarak kendi modelimi geliştirmeye çalışıyorum.
+Türkçe için bu eğitimi yapan tek bir çalışma bulabildim. RashadGarayev tarafından geliştirilmiş model github reposunu buldum ve o aşamaları takip ettim. Fakat bir sonuç üretemedi. Felemenkçe için yapılan bir not defteri buldum. Bu aşamaları türkçe dataseti için uyarladım.  Not defterindeki training kısmını çalıştırınca bu modül bulunmamaktadır hatası verdi. Mozillanın hazırlandığı dökümantasyondaki eğitim kısmı eksik/problemli. Paket uyumsuzluğu ve bulunamayan python scriptleri var. virtualenv colabda problem çıkardığı için tekrar deneyeceğim.  
 
 
 Kaynakça  
