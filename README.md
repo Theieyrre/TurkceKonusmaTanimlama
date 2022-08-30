@@ -38,14 +38,33 @@ her şey bir ihtiyaştanduvar yapılan her viş iyi yada kötü bir anlam taşı
 Wav2Vec2 Türkçe modeli tahmin:
 her şeyi bir ihti yaştanbuar yapılan her içş iyi yılda kötü bir anlam taşır ve her andan hayatı bak şimise etkiler i̇nsanlar bu farklı bakışaçılarını görü kısına yalnızdırlar çüng etraflad unlar gibi olayları aynı şekilde bakan ve algalayan kimse yokturbu yüzden iyi yada kötü anlımlar çağrıştıran doğruyada yanlış değerlendirlebilen ve kimi zaman ihtiye çarını gelenyannızlık duygusunu tanınması gerekir
 
-Kelim hata oranları
+Kelime hata oranları (ne kadar az o kadar iyi)
 
-Not defteri modeli hata oranı:  
-1.0  
-Orijinal not defteri modeli hata oranı:  
-0.5254237288135594  
-Wav2Vec2 Türkçe modeli hata oranı:  
-0.5932203389830508  
+Not defteri modeli hata oranı:
+1.0
+Orijinal not defteri modeli hata oranı:
+0.5254237288135594
+Wav2Vec2 Türkçe modeli hata oranı:
+0.5932203389830508
+
+Autocorrect sonrası çıktılar
+Konuşma tanımlama modellerinden daha iyi sonuç elde etmek için autocorrect ile birlikte kullanıldığını öğrendim.
+
+Not defteri modeli tahmin:
+
+Orijinal not defteri modeli tahmin:
+her şey bir ihtiyaştanduvar yapılan her şiş iyi yada kötü bir anlam taşır ve her andan hayatapa kşimise etkiler i̇nsanlar bu farklı bakış açılarını göre kısınan yalnızdırlar çengi yetraflamdaonlar gibi olaylara aynı şekilde bakan ve algalarenkimse yoktur bu yüzden iyi yada kötü anlamlar çağrıştıran doğru ya da yallışleğerlemdiilebilen vakim zaman itiye çarını gelenhannızlık duygu sunu tanınması gerekir
+Wav2Vec2 Türkçe modeli modeli tahmin:
+her şeyi bir ipti yaştanbuar yapılan her içi iyi yılda kötü bir anlam taşır ve her andan hayatı bak şiimse etkiler i̇nsanlar bu farklı bakışasılarını görü kısına yalnızdırlar çünkü etrafla unlar gibi olayları aynı şekilde bakan ve algılayan kimse yokturbu yüzden iyi yada kötü anlımlar çağrıştıran doğrucada yanlış değerlendirilebilen ve kimi zaman intiye çarını gelenyannızlık duygusunu tanınması gerekir
+
+Kelime hata oranları
+
+Not defteri modeli hata oranı:
+1.0
+Orijinal not defteri modeli hata oranı:
+0.5084745762711864
+Wav2Vec2 Türkçe modeli hata oranı:
+0.559322033898305
 
 Eksikler
 - Kendi geliştirdiğim modelde öğrenme gerçekleşmiyor. colabda ses dosyalarının çoğunluğunu göremiyor/okuyamıyor. Colab bir süredir sıklıkla kullandığım için daha küşük kapasitede cihaz atıyor. Çalıştırabildiğim kod kapasite yetersiz diyor.
@@ -63,3 +82,4 @@ Kaynakça
 [Türkçe Deepspeech](https://github.com/RashadGarayev/TRSpeech-to-text)  
 [Felemenkçe Not defteri](https://colab.research.google.com/github/acabunoc/Tutorial-train-dutch-model/blob/master/DeepSpeech_train_a_model%2C_CV_Dutch.ipynb)  
 [Eğitim Dökümantasyonu](https://github.com/mozilla/DeepSpeech/blob/master/doc/TRAINING.rst#training-your-own-model)  
+[AutoCorrect modülü](https://github.com/StarlangSoftware/TurkishSpellChecker-Py)
