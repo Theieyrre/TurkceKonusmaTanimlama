@@ -1,7 +1,7 @@
 # TurkceKonusmaTanimlama
 
 ## Kullanılan Modeller
-Facebook XLS-R 
+Facebook XLS-R  
 DeepSpeech 
 
 ## Kullanılan Paragraf
