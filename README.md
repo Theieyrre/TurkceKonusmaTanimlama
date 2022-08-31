@@ -24,54 +24,60 @@ Bu üç modeli (common voice 6.1 ile ince ayar yapılmış  xlsr-large-53 ozcang
 ## Sonuçlar
 ### Tahmin edilen metinler
 
-Paragraf:
+Paragraf:  
 her şey bir ihtiyaçtan doğar. yapılan her iş, iyi yada kötü bir anlam taşır ve her anlam hayata bakışımızı etkiler.
 i̇nsanlar bu farklı bakış açılarına göre kısmen yalnızdırlar. çünkü etraflarında onlar gibi olaylara aynı şekilde bakan ve algılayan kimse yoktur.
 bu yüzden iyi yada kötü anlamlar çağrıştıran, doğru ya da yanlış değerlendirilebilen ve kimi zaman ihtiyaç haline gelen
-yalnızlık duygusunun tanınması gerekir.
+yalnızlık duygusunun tanınması gerekir.  
+  
+Not defteri modeli tahmin:  
+1  
+  
+Orijinal not defteri modeli tahmin:  
+her şey bir ihtiyaştanduvar yapılan her viş iyi yada kötü bir anlam taşır ve her andan hayatapa kşimise etkiler i̇nsanlar bu farklı bakış açılarını göre kısınan yalnızdırlar çüngi yetraflamdaonlar gibi olaylara aynı şekilde bakan ve algalarenkimse yoktur bu yüzden iyii yada kötü anlamlar çağrıştıran doğru ya da yallışleğerlemdiilebilen vekim zaman ihtiye çarını gelenhannızlık duygu sunu tanınması gerekir  
+  
+Wav2Vec2 Türkçe modeli tahmin:  
+her şeyi bir ihti yaştanbuar yapılan her içş iyi yılda kötü bir anlam taşır ve her andan hayatı bak şimise etkiler i̇nsanlar bu farklı bakışaçılarını görü kısına yalnızdırlar çüng etraflad unlar gibi olayları aynı şekilde bakan ve algalayan kimse yokturbu yüzden iyi yada kötü anlımlar çağrıştıran doğruyada yanlış değerlendirlebilen ve kimi zaman ihtiye çarını gelenyannızlık duygusunu tanınması gerekir  
+  
+Kelime hata oranları (ne kadar az o kadar iyi)  
 
-Not defteri modeli tahmin:
-
-Orijinal not defteri modeli tahmin:
-her şey bir ihtiyaştanduvar yapılan her viş iyi yada kötü bir anlam taşır ve her andan hayatapa kşimise etkiler i̇nsanlar bu farklı bakış açılarını göre kısınan yalnızdırlar çüngi yetraflamdaonlar gibi olaylara aynı şekilde bakan ve algalarenkimse yoktur bu yüzden iyii yada kötü anlamlar çağrıştıran doğru ya da yallışleğerlemdiilebilen vekim zaman ihtiye çarını gelenhannızlık duygu sunu tanınması gerekir
-
-Wav2Vec2 Türkçe modeli tahmin:
-her şeyi bir ihti yaştanbuar yapılan her içş iyi yılda kötü bir anlam taşır ve her andan hayatı bak şimise etkiler i̇nsanlar bu farklı bakışaçılarını görü kısına yalnızdırlar çüng etraflad unlar gibi olayları aynı şekilde bakan ve algalayan kimse yokturbu yüzden iyi yada kötü anlımlar çağrıştıran doğruyada yanlış değerlendirlebilen ve kimi zaman ihtiye çarını gelenyannızlık duygusunu tanınması gerekir
-
-Kelime hata oranları (ne kadar az o kadar iyi)
-
-Not defteri modeli hata oranı:
-1.0
-Orijinal not defteri modeli hata oranı:
-0.5254237288135594
-Wav2Vec2 Türkçe modeli hata oranı:
-0.5932203389830508
-
+Not defteri modeli hata oranı:  
+1.0  
+  
+Orijinal not defteri modeli hata oranı:  
+0.5254237288135594  
+  
+Wav2Vec2 Türkçe modeli hata oranı:  
+0.5932203389830508  
+  
 Autocorrect sonrası çıktılar
 Konuşma tanımlama modellerinden daha iyi sonuç elde etmek için autocorrect ile birlikte kullanıldığını öğrendim.
-
-Not defteri modeli tahmin:
-
-Orijinal not defteri modeli tahmin:
-her şey bir ihtiyaştanduvar yapılan her şiş iyi yada kötü bir anlam taşır ve her andan hayatapa kşimise etkiler i̇nsanlar bu farklı bakış açılarını göre kısınan yalnızdırlar çengi yetraflamdaonlar gibi olaylara aynı şekilde bakan ve algalarenkimse yoktur bu yüzden iyi yada kötü anlamlar çağrıştıran doğru ya da yallışleğerlemdiilebilen vakim zaman itiye çarını gelenhannızlık duygu sunu tanınması gerekir
-Wav2Vec2 Türkçe modeli modeli tahmin:
-her şeyi bir ipti yaştanbuar yapılan her içi iyi yılda kötü bir anlam taşır ve her andan hayatı bak şiimse etkiler i̇nsanlar bu farklı bakışasılarını görü kısına yalnızdırlar çünkü etrafla unlar gibi olayları aynı şekilde bakan ve algılayan kimse yokturbu yüzden iyi yada kötü anlımlar çağrıştıran doğrucada yanlış değerlendirilebilen ve kimi zaman intiye çarını gelenyannızlık duygusunu tanınması gerekir
-
-Kelime hata oranları
-
-Not defteri modeli hata oranı:
-1.0
-Orijinal not defteri modeli hata oranı:
-0.5084745762711864
-Wav2Vec2 Türkçe modeli hata oranı:
-0.559322033898305
+  
+Not defteri modeli tahmin:  
+1  
+  
+Orijinal not defteri modeli tahmin:  
+her şey bir ihtiyaştanduvar yapılan her iviş iyi yada kötü bir anlam taşır ve her andan hayatapa kşimise etkiler i̇nsanlar bu farklı bakış açılarını göre kısınan yalnızdırlar çengi yetraflamdaonlar gibi olaylara aynı şekilde bakan ve algalarenkimse yoktur bu yüzden iyimi yada kötü anlamlar çağrıştıran doğru ya da yallışleğerlemdiilebilen velim zaman itiye çarını gelenhannızlık duygu sunu tanınması gerekir  
+  
+Wav2Vec2 Türkçe modeli modeli tahmin:  
+her şeyi bir hiti yaştanbuar yapılan her iç iyi yılda kötü bir anlam taşır ve her andan hayatı bak şiimse etkiler i̇nsanlar bu farklı bakışasılarını görü kısına yalnızdırlar çünkü etraflan unlar gibi olayları aynı şekilde bakan ve alalayan kimse yokturbu yüzden iyi yada kötü anlımlar çağrıştıran doğrucada yanlış değerlendirtebilen ve kimi zaman intiye çarını gelenyannızlık duygusunu tanınması gerekir  
+  
+Kelime hata oranları  
+  
+Not defteri modeli hata oranı:  
+1.0  
+  
+Orijinal not defteri modeli hata oranı:  
+0.5254237288135594  
+  
+Wav2Vec2 Türkçe modeli hata oranı:  
+0.5932203389830508  
 
 Eksikler
-- Kendi geliştirdiğim modelde öğrenme gerçekleşmiyor. colabda ses dosyalarının çoğunluğunu göremiyor/okuyamıyor. Colab bir süredir sıklıkla kullandığım için daha küşük kapasitede cihaz atıyor. Çalıştırabildiğim kod kapasite yetersiz diyor.
+- Kendi geliştirdiğim modelde öğrenme gerçekleşmiyor. colabda ses dosyalarının çoğunluğunu göremiyor/okuyamıyor. Çok düşük batch boyutu ile eğitim tamamladığım zamanda bile anlamsız sonuç döndü
 
-DeepSpeech
-Türkçe için bu eğitimi yapan tek bir çalışma bulabildim. RashadGarayev tarafından geliştirilmiş model github reposunu buldum ve o aşamaları takip ettim. Fakat bir sonuç üretemedi. Felemenkçe için yapılan bir not defteri buldum. Bu aşamaları türkçe dataseti için uyarladım.  Not defterindeki training kısmını çalıştırınca bu modül bulunmamaktadır hatası verdi. Mozillanın hazırlandığı dökümantasyondaki eğitim kısmı eksik/problemli. Paket uyumsuzluğu ve bulunamayan python scriptleri var. virtualenv colabda problem çıkardığı için tekrar deneyeceğim.  
-
+## DeepSpeech
+Türkçe için bu eğitimi yapan tek bir çalışma bulabildim. RashadGarayev tarafından geliştirilmiş model github reposunu buldum ve o aşamaları takip ettim. Fakat bir sonuç üretemedi. Felemenkçe için yapılan bir not defteri buldum. Bu aşamaları türkçe dataseti için uyarladım.  Not defterindeki training kısmını çalıştırınca bu modül bulunmamaktadır hatası verdi. Mozillanın hazırlandığı dökümantasyondaki eğitim kısmı eksik/problemli. Paket uyumsuzluğu ve bulunamayan python scriptleri var. 
 
 Kaynakça  
 [Wav2vec2-large-xlsr-53](https://huggingface.co/blog/fine-tune-wav2vec2-english)  
@@ -83,3 +89,4 @@ Kaynakça
 [Felemenkçe Not defteri](https://colab.research.google.com/github/acabunoc/Tutorial-train-dutch-model/blob/master/DeepSpeech_train_a_model%2C_CV_Dutch.ipynb)  
 [Eğitim Dökümantasyonu](https://github.com/mozilla/DeepSpeech/blob/master/doc/TRAINING.rst#training-your-own-model)  
 [AutoCorrect modülü](https://github.com/StarlangSoftware/TurkishSpellChecker-Py)
+[virtualenv colab](https://colab.research.google.com/drive/1Vg005uKhgt-ZwyQ11-BGceqY0q07qIzF#scrollTo=e-ZquFUszJD-)
